@@ -1,0 +1,28 @@
+{
+    "GET /hello": {
+        "params": [
+            {
+                "name": "a",
+                "json": true,
+                "required": true
+            },
+            {
+                "name": "b",
+                "json": true,
+                "required": true
+            }
+        ]
+    },
+    "POST /hello": {
+        "params": [
+            {
+                "name": "a",
+                "required": true
+            },
+            {
+                "name": "b",
+                "required": true
+            }
+        ]
+    }
+}

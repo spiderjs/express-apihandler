@@ -1,0 +1,52 @@
+{
+  "name": "express-apihandler",
+  "version": "1.0.9",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "repository": "https://github.com/spiderjs/engine.git",
+  "author": "yayanyang <yayanyang@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "tsc -p .",
+    "dev": "mocha-typescript-watch dist/test config"
+  },
+  "dependencies": {
+    "apihandler": "^1.0.14",
+    "express": "^4.15.2",
+    "log4js": "^1.1.1",
+    "rx": "^4.1.0",
+    "rx-node": "^1.0.2",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "redis": "^2.7.0",
+    "config": "^1.25.1",
+    "jsonwebtoken": "^7.3.0",
+    "snowflake-idgen": "^1.0.1",
+    "body-parser": "^1.17.1",
+    "@types/config": "0.0.32",
+    "morgan": "^1.8.1",
+    "@types/log4js": "0.0.32",
+    "@types/passport": "^0.3.3",
+    "@types/passport-jwt": "^2.0.19",
+    "@types/rx": "^4.1.1",
+    "@types/rx-node": "0.0.5",
+    "@types/express": "^4.0.35",
+    "@types/body-parser": "^1.16.0",
+    "@types/request": "^0.0.42",
+    "@types/redis": "^0.12.36",
+    "@types/jsonwebtoken": "^7.2.0"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "eslint": "^3.17.1",
+    "eslint-plugin-node": "^4.2.1",
+    "mocha": "^3.2.0",
+    "mocha-typescript": "^1.0.23",
+    "nodemon": "^1.11.0",
+    "tslint": "^4.5.1",
+    "typescript": "^2.2.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
